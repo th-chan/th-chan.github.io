@@ -29,8 +29,8 @@ $(function () {
       url: "https://graph.instagram.com/me/media",
       type: "get", //send it through get method
       data: { 
-        fields: caption,id,media_type,media_url,permalink,thumbnail_url,timestamp,username, 
-        access_token: IGQVJYUXJuc2ZAGcnhGdTFZAQjJzR0dvT2J1YUlLMXN5YXNwT25RRG96SjhXWFltdXNPdEdJWE1VSXVOMzIyTkgyOVA2QzNZAcVh2ci11b1VUNEZARM00wakEwY1ZAYdm1TNW9wQm00Vl93
+        fields: "caption,id,media_type,media_url,permalink,thumbnail_url,timestamp,username", 
+        access_token: "IGQVJYUXJuc2ZAGcnhGdTFZAQjJzR0dvT2J1YUlLMXN5YXNwT25RRG96SjhXWFltdXNPdEdJWE1VSXVOMzIyTkgyOVA2QzNZAcVh2ci11b1VUNEZARM00wakEwY1ZAYdm1TNW9wQm00Vl93"
       },
       success: function(response) {
         //Do Something
