@@ -30,7 +30,7 @@ $(function () {
       type: "get", //send it through get method
       data: { 
         fields: "caption,id,media_type,media_url,permalink,thumbnail_url,timestamp,username", 
-        access_token: "IGQVJYUXJuc2ZAGcnhGdTFZAQjJzR0dvT2J1YUlLMXN5YXNwT25RRG96SjhXWFltdXNPdEdJWE1VSXVOMzIyTkgyOVA2QzNZAcVh2ci11b1VUNEZARM00wakEwY1ZAYdm1TNW9wQm00Vl93"
+        access_token: "IGQVJYUHdPVHNOdGlKQUU3U1hpOG03R3dyVXpWZATVkVkxkTEVpUXl0OVZApaDFxX3Fad3c2WXlnbXVtUUZAZAaVh1aGhxdDdyS28tX1hyV2l2UTJ4MWd1YU9xc0txb2pGSk9NWGhFM1pB"
       },
       success: function(response) {
         //Do Something
